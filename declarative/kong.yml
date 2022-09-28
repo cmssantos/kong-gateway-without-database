@@ -1,0 +1,13 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+- name: admin-api
+  host: 127.0.0.1
+  port: 8001
+  tags:
+   - admin
+  routes:
+  - name: admin-api-route
+    paths:
+    - /admin-api
